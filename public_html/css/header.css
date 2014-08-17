@@ -1,0 +1,8 @@
+#header_div{
+      position:fixed;
+      top: 0px;
+      height:100px;
+      width: 100%;
+      background-color: red;
+      z-index: 10;
+}

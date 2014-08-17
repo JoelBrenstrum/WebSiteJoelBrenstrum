@@ -1,0 +1,15 @@
+#nav_div{
+    width:22.5%;
+    position:fixed;
+    left:0px;
+}
+#nav_inner_div{
+    width:100px;
+    right:30px;
+    position:absolute; 
+}
+#nav_inner_div ul{
+list-style-type:none;
+white-space: nowrap;
+text-align: right;
+}

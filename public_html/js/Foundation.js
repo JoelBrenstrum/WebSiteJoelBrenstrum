@@ -1,6 +1,8 @@
 var viewsEnum = ({
         index: "index",
-        projects: "projects"
+        projects: "projects",
+        contact: "contact",
+        cv: "cv"
     });
 
 var $j = {  
@@ -18,9 +20,11 @@ var $j = {
         currentView = viewEnum;
     },
     updateView: function(viewEnum){
+        if(!viewsEnum[viewEnum]){
+            return;
+        } 
         if(!$j.getJsonData(viewEnum)){
-            console.log("failed to load page");
-            
+            alert("Page failed to load correctly.")
             return;
         }
         $j.setView(viewEnum);

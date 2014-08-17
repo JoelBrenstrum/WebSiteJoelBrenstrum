@@ -1,0 +1,13 @@
+.central_div{
+     position:relative;
+     width:55%;
+     min-width: 200px;
+     margin: auto;
+}
+#containder_div{
+     position:relative;
+     margin: auto;
+     padding-top: 100px;
+}
+#inner_div{
+}

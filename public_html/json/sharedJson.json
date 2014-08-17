@@ -1,0 +1,34 @@
+{
+    "title": "Joel Brenstrum",
+    "menuElements":  [{
+            "isLink":false,
+            "selected":true,
+            "title":"Home",
+            "url": "viewsEnum.index"
+        },
+        {
+            "isLink":false,
+            "title":"Projects",
+            "url": "viewsEnum.projects"
+        },
+        {
+            "isLink":false,
+            "title":"Contact",
+            "url": "viewsEnum.contact"
+        },
+        {
+            "isLink":false,
+            "title":"contact",
+            "url": "viewsEnum.contact"
+        },
+        {
+            "isLink":false,
+            "title":"Test",
+            "url": "viewsEnum.projects"
+        },
+        {
+            "isLink":false,
+            "title":"Test",
+            "url": "viewsEnum.projects"
+        }]
+}

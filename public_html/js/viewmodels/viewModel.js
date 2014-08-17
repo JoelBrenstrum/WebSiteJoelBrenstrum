@@ -11,6 +11,12 @@ $j.intialiseVM = function() {
             $j.JSONData.menuElements.forEach(
                     function(element) {
                         element.isLink = ko.observable(element.isLink)
+                        if(element.selected){
+                            element.selected = ko.observable(element.selected)
+                        }
+                        else{
+                            element.selected = ko.observable(false)
+                        }
                         if (!element.isLink()) {
                             element.url = eval(element.url);
                         }
@@ -54,10 +60,11 @@ $j.intialiseVM = function() {
         title: ko.observable(""),
         header: ko.observable(""),
         
-        menuElements: ko.observableArray(jsonMenuElements()),
-        bodyElements: ko.observableArray(jsonBodyElements()),
-        footer: ko.observableArray(jsonMenuElements()),
+        menuElements: ko.observableArray([]),
+        bodyElements: ko.observableArray([]),
+        footer: ko.observableArray([]),
         update: function() {
+            $.extend(true, $j.JSONData, $j.sharedJSONData);
             vm.title(jsonTitle())
             vm.header(jsonHeader())
             vm.menuElements(jsonMenuElements())

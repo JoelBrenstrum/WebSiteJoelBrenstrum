@@ -1,0 +1,35 @@
+{
+    "title": "Index",
+    "name": "joelbrenstrum",
+    "bodyElements":  [{
+            "heading" :"Index header",
+            "content": "Project Content"
+        },
+        {
+            "heading":"Index header2",
+            "content": "Project Content2"
+        },
+        {
+            "heading":"Index header3",
+            "content": "Project Content3"
+        },
+            {
+            "heading":"Index header4",
+            "content": "Project Content3"
+        }],
+    "menuElements":  [{
+            "isLink":true,
+            "title":"link1",
+            "url": "Project Content"
+        },
+        {
+            "isLink":true,
+            "title":"link2",
+            "url": "http://google.com"
+        },
+        {
+            "isLink":false,
+            "title":"projects",
+            "url": "viewsEnum.projects"
+        }]
+}

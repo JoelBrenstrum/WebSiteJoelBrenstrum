@@ -1,35 +1,27 @@
 {
-    "title": "Projects",
-    "name": "joelbrenstrum",
+    "header": "Projects",
     "bodyElements":  [{
-            "heading" :"Project header",
+            "id":"header1",
+            "subfile":"json/projects/project1.html",
+            "heading" :"project1.html header",
             "content": "Project Content"
         },
         {
+            "id":"header1",
+            "subfile":"",
             "heading":"Project header2",
             "content": "Project Content2"
         },
         {
+            "id":"header1",
+            "subfile":"",
             "heading":"Project header3",
             "content": "Project Content3"
         },
-            {
+        {
+            "id":"header1",
+            "subfile":"",
             "heading":"Project header4",
             "content": "Project Content3"
-        }],
-    "menuElements":  [{
-            "isLink":true,
-            "title":"link1",
-            "url": "Project Content"
-        },
-        {
-            "isLink":true,
-            "title":"link2",
-            "url": "http://google.com"
-        },
-        {
-            "isLink":false,
-            "title":"index",
-            "url": "viewsEnum.index"
         }]
 }

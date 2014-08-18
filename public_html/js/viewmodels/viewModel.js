@@ -1,11 +1,28 @@
 /*The view model*/
 $j.intialiseVM = function() {
     jsonBodyElements = function() {
-        if ($j.JSONData)
-            return $j.JSONData.bodyElements;
+        if ($j.JSONData){
+            $j.JSONData.bodyElements.forEach(
+                    function(element) {
+                        element.content = ko.observable(element.content);
+                        if(element.subfile){//read in html subfile
+                        $.ajax({
+                            dataType: "html",
+                            url: element.subfile,
+                        }).done(function(data, textStatus, jqXHR) {
+                            element.content(data);
+                        }).error(function(jqXHR, textStatus, errorThrown) {
+                            element.content("Server request failed "+ errorThrown);
+                        });
+                        }
+                    }  
+                );
+            return $j.JSONData.bodyElements  
+    }
         else
             return [];
-    }
+    };
+    
     jsonMenuElements = function() {
         if ($j.JSONData) {
             $j.JSONData.menuElements.forEach(

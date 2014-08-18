@@ -17,18 +17,8 @@
             "url": "viewsEnum.contact"
         },
         {
-            "isLink":false,
-            "title":"contact",
-            "url": "viewsEnum.contact"
-        },
-        {
-            "isLink":false,
-            "title":"Test",
-            "url": "viewsEnum.projects"
-        },
-        {
-            "isLink":false,
-            "title":"Test",
-            "url": "viewsEnum.projects"
+            "isLink":true,
+            "title":"Google",
+            "url": "http://www.google.com"
         }]
 }

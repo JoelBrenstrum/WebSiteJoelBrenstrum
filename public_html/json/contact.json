@@ -3,66 +3,52 @@
     "header": "Contact",
     "name": "joelbrenstrum",
     "bodyElements":  [{
-            "heading" :"Contact",
+            "id":"header1",
+            "subfile":"",
+            "heading" :"",
             "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et tellus porttitor, dignissim ante a, viverra leo. Donec id metus id dui molestie volutpat vel vitae ante. Fusce sed felis sed tortor porttitor tincidunt. Vivamus tempor convallis fringilla. Cras et libero risus. Sed non feugiat nunc. Integer interdum placerat augue, id fringilla risus congue id. Donec sodales sit amet diam sed dapibus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam gravida porta velit sit amet pretium. Nullam id enim at ipsum venenatis porttitor vel in ante. Nam feugiat neque quis purus consequat facilisis. Sed lacinia ut tortor ut aliquam."
         },
         {
+            "id":"header1",
+            "subfile":"",
             "heading":"Index header2",
             "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et tellus porttitor, dignissim ante a, viverra leo. Donec id metus id dui molestie volutpat vel vitae ante. Fusce sed felis sed tortor porttitor tincidunt. Vivamus tempor convallis fringilla. Cras et libero risus. Sed non feugiat nunc. Integer interdum placerat augue, id fringilla risus congue id. Donec sodales sit amet diam sed dapibus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam gravida porta velit sit amet pretium. Nullam id enim at ipsum venenatis porttitor vel in ante. Nam feugiat neque quis purus consequat facilisis. Sed lacinia ut tortor ut aliquam."
         },
         {
+            "id":"header1",
+            "subfile":"",
             "heading":"Index header3",
             "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et tellus porttitor, dignissim ante a, viverra leo. Donec id metus id dui molestie volutpat vel vitae ante. Fusce sed felis sed tortor porttitor tincidunt. Vivamus tempor convallis fringilla. Cras et libero risus. Sed non feugiat nunc. Integer interdum placerat augue, id fringilla risus congue id. Donec sodales sit amet diam sed dapibus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam gravida porta velit sit amet pretium. Nullam id enim at ipsum venenatis porttitor vel in ante. Nam feugiat neque quis purus consequat facilisis. Sed lacinia ut tortor ut aliquam."
         },
             {
+            "id":"header1",
+            "subfile":"",
             "heading":"Index header4",
             "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et tellus porttitor, dignissim ante a, viverra leo. Donec id metus id dui molestie volutpat vel vitae ante. Fusce sed felis sed tortor porttitor tincidunt. Vivamus tempor convallis fringilla. Cras et libero risus. Sed non feugiat nunc. Integer interdum placerat augue, id fringilla risus congue id. Donec sodales sit amet diam sed dapibus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam gravida porta velit sit amet pretium. Nullam id enim at ipsum venenatis porttitor vel in ante. Nam feugiat neque quis purus consequat facilisis. Sed lacinia ut tortor ut aliquam."
         },
         {
+            "id":"header1",
+            "subfile":"",
             "heading" :"Index header",
             "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et tellus porttitor, dignissim ante a, viverra leo. Donec id metus id dui molestie volutpat vel vitae ante. Fusce sed felis sed tortor porttitor tincidunt. Vivamus tempor convallis fringilla. Cras et libero risus. Sed non feugiat nunc. Integer interdum placerat augue, id fringilla risus congue id. Donec sodales sit amet diam sed dapibus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam gravida porta velit sit amet pretium. Nullam id enim at ipsum venenatis porttitor vel in ante. Nam feugiat neque quis purus consequat facilisis. Sed lacinia ut tortor ut aliquam."
         },
         {
+            "id":"header1",
+            "subfile":"",
             "heading":"Index header2",
             "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et tellus porttitor, dignissim ante a, viverra leo. Donec id metus id dui molestie volutpat vel vitae ante. Fusce sed felis sed tortor porttitor tincidunt. Vivamus tempor convallis fringilla. Cras et libero risus. Sed non feugiat nunc. Integer interdum placerat augue, id fringilla risus congue id. Donec sodales sit amet diam sed dapibus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam gravida porta velit sit amet pretium. Nullam id enim at ipsum venenatis porttitor vel in ante. Nam feugiat neque quis purus consequat facilisis. Sed lacinia ut tortor ut aliquam."
         },
         {
+            "id":"header1",
+            "subfile":"",
             "heading":"Index header3",
             "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et tellus porttitor, dignissim ante a, viverra leo. Donec id metus id dui molestie volutpat vel vitae ante. Fusce sed felis sed tortor porttitor tincidunt. Vivamus tempor convallis fringilla. Cras et libero risus. Sed non feugiat nunc. Integer interdum placerat augue, id fringilla risus congue id. Donec sodales sit amet diam sed dapibus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam gravida porta velit sit amet pretium. Nullam id enim at ipsum venenatis porttitor vel in ante. Nam feugiat neque quis purus consequat facilisis. Sed lacinia ut tortor ut aliquam."
         },
             {
+            "id":"header1",
+            "subfile":"",
             "heading":"Index header4",
             "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et tellus porttitor, dignissim ante a, viverra leo. Donec id metus id dui molestie volutpat vel vitae ante. Fusce sed felis sed tortor porttitor tincidunt. Vivamus tempor convallis fringilla. Cras et libero risus. Sed non feugiat nunc. Integer interdum placerat augue, id fringilla risus congue id. Donec sodales sit amet diam sed dapibus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam gravida porta velit sit amet pretium. Nullam id enim at ipsum venenatis porttitor vel in ante. Nam feugiat neque quis purus consequat facilisis. Sed lacinia ut tortor ut aliquam."
-        }],
-    "menuElements":  [{
-            "isLink":false,
-            "title":"Not a link",
-            "url": ""
-        },
-        {
-            "isLink":true,
-            "title":"link2",
-            "url": "http://google.com"
-        },
-        {
-            "isLink":false,
-            "title":"projects",
-            "url": "viewsEnum.projects"
-        },
-        {
-            "isLink":false,
-            "title":"index",
-            "url": "viewsEnum.index"
-        },
-        {
-            "isLink":false,
-            "title":"Test",
-            "url": "viewsEnum.projects"
-        },
-        {
-            "isLink":false,
-            "title":"Test",
-            "url": "viewsEnum.projects"
         }],
     "footer":[{
             "isLink":false,

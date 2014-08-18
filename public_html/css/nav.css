@@ -2,14 +2,39 @@
     width:22.5%;
     position:fixed;
     left:0px;
+    font-family: 'Questrial', sans-serif;
+
 }
 #nav_inner_div{
-    width:100px;
-    right:30px;
+
+    min-width: 120px;
+    right:5px;
     position:absolute; 
+    background-color: crimson;
+    padding:10px;
+    border-radius: 5px;
 }
 #nav_inner_div ul{
-list-style-type:none;
-white-space: nowrap;
-text-align: right;
+    padding:0px;
+    margin:0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    list-style-type:none;
+    white-space: nowrap;
+    text-align: right;
+}
+#nav_inner_div ul li{
+    cursor: pointer;
+    color:black;
+}
+#nav_inner_div ul li ul {
+    font-size: 12px;
+    padding-right: 8px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.selected_page{
+    color:green;
 }

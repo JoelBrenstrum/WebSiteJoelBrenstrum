@@ -1,17 +1,33 @@
+body{
+    margin:0px;
+}
 .central_div{
      position:relative;
      width:55%;
      min-width: 200px;
      margin: auto;
+     font-family: 'Questrial', sans-serif;
 }
 #containder_div{
      position:relative;
      margin: auto;
-     padding-top: 100px;
+     padding-top: 120px;
+     
 }
 #inner_div{
+    height:100%;
+    text-align: justify;
+   /* border-left-width: 1px;
+    border-left-style: solid;*/
+    padding-left: 10px;
 }
 
-.selected_page{
-    color:green;
+h3{
+    margin-top:0px;
+}
+.anchor{
+  display: block;
+  height: 130px; /*same height as header*/
+  margin-top: -130px; /*same height as header*/
+  visibility: hidden;
 }

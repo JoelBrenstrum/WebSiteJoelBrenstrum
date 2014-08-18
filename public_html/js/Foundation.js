@@ -1,3 +1,9 @@
+window.onerror = function (errorMsg, url, lineNumber, columnNumber, errorObject) {
+    if (errorObject && /<omitted>/.test(errorMsg)) {
+        console.error('Full exception message: ' + errorObject.message);
+    }
+}
+
 var viewsEnum = ({
     index: "index",
     projects: "projects",
@@ -11,41 +17,27 @@ var $j = {
     currentView: viewsEnum.index,
     JSONData: {
         title: "Failed to load",
-        bodyElements: [{heading: "", content: ""}],
+        bodyElements: [{id: "",heading: "", content: ""}],
     },
     sharedJSONData: {
         menuElements: [{isLink: true, title: "Sorry", url: ""}],
     },
-    getSharedJson: function() {
-        var url = "json/sharedJson.json";
-        var success = false;
-        $.ajax({
-            async: false,
-            dataType: "json",
-            url: url,
-        }).done(function(data, textStatus, jqXHR) {
-            $j.sharedJSONData = data;
-            success = true;
-        }).error(function(jqXHR, textStatus, errorThrown) {
-            alert("Failed to load page");
-        });
-        return success;
-    },
+   
     getJsonData: function(viewEnum) {
 
         var url = "json/" + viewEnum + ".json";
-        var success = false;
+        var JSONData;
         $.ajax({
             async: false,
             dataType: "json",
             url: url,
         }).done(function(data, textStatus, jqXHR) {
-            $j.JSONData = data;
+            JSONData = data;
             success = true;
         }).error(function(jqXHR, textStatus, errorThrown) {
             alert("Failed to load page");
         });
-        return success;
+        return JSONData;
     },
     changeSelectedPage: function(viewEnum) {
         $j.JSONData.menuElements.forEach(
@@ -66,10 +58,7 @@ var $j = {
         if (!viewsEnum[viewEnum]) {
             return;
         }
-        if (!$j.getJsonData(viewEnum)) {
-            alert("Page failed to load correctly.")
-            return;
-        }
+        $j.JSONData = $j.getJsonData(viewEnum);
         $j.viewModel.update()
         $j.changeSelectedPage(viewEnum);
         $j.setView(viewEnum);

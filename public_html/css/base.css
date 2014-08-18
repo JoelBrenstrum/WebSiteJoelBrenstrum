@@ -42,7 +42,7 @@ h3{
 }
 .anchor{
   display: block;
-  height: 120px; /*same height as header*/
-  margin-top: -120px; /*same height as header*/
+  height: 130px; /*same height as header*/
+  margin-top: -130px; /*same height as header*/
   visibility: hidden;
 }

@@ -1,25 +1,40 @@
-body{
-    margin:0px;
+html, body{
+         height:100%; 
+         overflow: hidden;
+        margin: 0px;
+         margin:0px;
+         background-color: #A7A37E;
 }
+
 .central_div{
      position:relative;
      width:55%;
      min-width: 200px;
      margin: auto;
+     margin-bottom: 0px;
      font-family: 'Questrial', sans-serif;
-}
-#containder_div{
-     position:relative;
-     margin: auto;
-     padding-top: 120px;
      
 }
+#container_div{
+     height:100%;
+     position:relative;
+     margin: auto;
+
+     
+}
+#header_spacefiller_div{
+    height:120px; 
+}
 #inner_div{
+    margin-top: -10px;
+    padding-top:10px;
+    overflow-y: scroll;
     height:100%;
+    background-color: #EFECCA;
     text-align: justify;
-   /* border-left-width: 1px;
-    border-left-style: solid;*/
     padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,.6);
 }
 
 h3{
@@ -27,7 +42,7 @@ h3{
 }
 .anchor{
   display: block;
-  height: 130px; /*same height as header*/
-  margin-top: -130px; /*same height as header*/
+  height: 120px; /*same height as header*/
+  margin-top: -120px; /*same height as header*/
   visibility: hidden;
 }

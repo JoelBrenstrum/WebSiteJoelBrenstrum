@@ -17,6 +17,11 @@
             "url": "viewsEnum.contact"
         },
         {
+            "isLink":false,
+            "title":"CV",
+            "url": "viewsEnum.cv"
+        },
+        {
             "isLink":true,
             "title":"Google",
             "url": "http://www.google.com"

@@ -3,18 +3,23 @@
     position:fixed;
     left:0px;
     font-family: 'Questrial', sans-serif;
-
+    height: 100%;
 }
 #nav_inner_div{
-
+    top:120px;
     min-width: 120px;
-    right:5px;
+    right:10px;
     position:absolute; 
-    background-color: crimson;
+    background-color: #E6E2AF;
     padding:10px;
-    border-radius: 5px;
+    margin-top: -10px;
+    padding-top:20px;
+    height: 100%;
+    box-shadow: 0px 0px 8px rgba(0,0,0,.6);
+    /*border-radius: 5px;*/
 }
 #nav_inner_div ul{
+    font-size: 22px;
     padding:0px;
     margin:0px;
     overflow: hidden;
@@ -25,7 +30,8 @@
 }
 #nav_inner_div ul li{
     cursor: pointer;
-    color:black;
+   
+    color:#002F2F;
 }
 #nav_inner_div ul li ul {
     font-size: 12px;
@@ -36,5 +42,5 @@ a{
     color: inherit;
 }
 .selected_page{
-    color:green;
+    color:#046380;
 }

@@ -2,7 +2,7 @@
     "header": "Projects",
     "bodyElements":  [{
             "id":"header1",
-            "subfile":"json/projects/project1.html",
+            "subfile":"html/projects/project1.html",
             "heading" :"project1.html header",
             "content": "Project Content"
         },
